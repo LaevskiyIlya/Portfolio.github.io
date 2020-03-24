@@ -1,0 +1,172 @@
+body{
+    background-color: rgba(0, 0, 0, 0.795);
+    background-image:url(./img/fon.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+a:hover,a{
+    text-decoration: none;
+}
+nav {
+color: #FF0F15;
+opacity: 0.9;
+    background: gray; 
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hIV{
+    color:#0ABD15;
+}
+.h{
+    color: #F141A1;
+}
+.menu{
+    display: flex;
+    flex-flow:row ;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+}
+.menu li {
+    padding: 10px;
+}
+a{
+    color: black;
+}
+.name{
+    display: block;
+    margin-right: auto;
+}
+header{
+    height:350px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+header img{
+    border-radius: 50%;
+    border:2px  solid greenyellow;
+    transition: all .5s;
+}
+header img:hover{
+        transform: scale(1.4) rotate(45deg);
+        border:10px solid purple;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.tag{
+    background-color:silver;
+    display: table;
+    color:white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15%;
+}
+.hp{
+    background-color:yellow;
+    color: #000;
+}
+.grafik{
+    height: 130px;
+    width: 500px;
+    background-color: rgb(194, 190, 190);
+}
+.centr{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.Fon{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border:5px outset burlywood;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius:20% ;
+}
+.gr{
+    background-color: chartreuse;
+    border-radius:10%;
+}
+.yel{
+    background-color: yellow;
+    border-radius:10%;
+}
+.re{
+    background-color: tomato;
+    border-radius:10%;
+}
+.bl{
+    background-color: rgb(68, 68, 228);
+    border-radius: 10%;
+}
+.knopka{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.tab{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.eng{
+    height: 300px;
+    width: 360px;
+}
+.am{
+    background-color: white;
+    text-align: center;
+}
+.iii{
+    height: 50px;
+    width: 50px;
+}
+@media screen and (max-width: 600px) {
+    body { background-image:url(img/mobFone.jpg);}
+    nav {
+            padding: 5px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    .Fon{
+        border:3px outset burlywood;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius:0% ;
+        height: 400px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    nav {
+            font-size: 14px;
+        }
+    .Fon{
+        height: 430px;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    nav {
+            font-size: 13px;
+        }
+    .Fon{
+        height: 470px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    nav {
+            font-size: 11px;
+        }
+    .Fon{
+        height: 520px;
+    }
+  }

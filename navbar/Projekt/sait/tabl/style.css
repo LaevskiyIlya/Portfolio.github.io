@@ -1,0 +1,35 @@
+.gryn{
+background-color: rgb(86, 134, 15); color: white; border-radius: 20%;
+}
+.blac{
+    background-color: black; color: white;
+}
+.gray{
+    background-color: gray; color: white;
+}
+.gr{
+    background-color: gray;
+}
+.bl{
+    font-weight: bold;
+}
+.red{
+    background-color: rgb(235, 11, 11); color: white;  border-radius: 20%;
+}
+.blu{
+    background-color: rgb(114, 123, 240); color: white; border-radius: 20%; 
+}
+.b{
+    background-color: rgb(2, 19, 255); color: white; border-radius: 20%; 
+}
+h1{
+    text-align: center;
+}
+.elbat{
+    text-align: center; margin: auto; width: 1200px;border: 3px solid black;
+}
+.yel{
+    background-color: rgb(207, 219, 40);    color: white; border-radius: 20%;
+}
+
+

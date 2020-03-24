@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    font-size: 23px;
+    background-color: darkgray;
+    border: black solid 3px;
+}
+.st{
+        height: 25px;
+        width: 25px;
+    }
+    a{
+        text-decoration: none;
+    }
+    @media screen and (max-width: 600px) {
+     body {
+         display: flex;
+        flex-direction: column;
+     }
+      }

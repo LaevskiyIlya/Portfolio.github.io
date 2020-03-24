@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content:center;
+}
+.I{
+    background-color: yellowgreen;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 250px;
+    animation: I 5s 1;
+}
+.x{
+    background-color:yellow;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    border-radius: 50%;
+    animation: x 5s 1;
+    text-align: center;
+}
+@keyframes I {
+    0% {
+        height: 50px;
+        width: 50px;
+    }
+    50% {
+        height: 500px;
+        width: 500px;
+    }
+    100% { background-color: black }
+  }
+  @keyframes x {
+    0% {
+        height: 50px;
+    width: 50px;
+    }
+    50% {
+       mheight: 100px;
+       width: 100px;
+       margin-top: 200px;
+       margin-left: 210px;
+    }
+}

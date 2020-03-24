@@ -1,0 +1,55 @@
+body {
+    background-image:url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+.clo{
+    font-size: 34px;
+    font-weight: 500;
+}
+p{
+    font-size: 50px;
+    font-weight: 500;
+}
+.mrrt{
+    display: flex;
+    justify-content: center;
+}
+#clock{
+    font-family:Tahoma, sans-serif;
+    font-size:100px;
+    font-weight:bold;
+    color:white;
+    }
+.clock{
+    margin-top: 100px;
+    opacity: 0.6;
+    background: gray; 
+    padding: 5px;
+    height: 150px;
+    width: 470px;
+    border: solid black 3px;
+}
+@media screen and (max-width: 600px) {
+    body { background-image:url(mobFone.jpg);}
+   P{font-size: 21px;}
+   .md{width: 200px;
+height: 55px;}
+#clock {
+    font-size: 50px;
+}
+.clock{
+    width: 250px;
+    height: 100px;
+}
+.clo{
+    font-size:15px;
+}
+  }
+  @media screen and (max-width: 360px) {
+    P{font-size: 20px;}
+  }
+  @media screen and (max-width: 320px) {
+    P{font-size: 18px;}
+  }

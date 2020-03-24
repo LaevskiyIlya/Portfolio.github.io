@@ -1,0 +1,9 @@
+body{
+    background-color: aqua; 
+}
+.conteiner{
+max-width: 1024px;
+margin: auto;
+padding: 24px;
+    background-color: rgb(255, 230, 0);
+}

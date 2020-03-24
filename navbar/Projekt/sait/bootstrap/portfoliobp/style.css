@@ -1,0 +1,27 @@
+ul{
+    background-color:greenyellow;
+}
+.dvd{
+    margin-left: 1000px; 
+}
+.vdv{
+    margin-left: 50px;
+}
+.cen{
+    margin-left: 400px;
+}
+.cenn{
+    margin-left: 300px;
+}
+.cennn{
+    margin-left: 200px;
+}
+.imgIII{
+    height: 10px;
+    width: 10px;
+}
+.tttppp{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
