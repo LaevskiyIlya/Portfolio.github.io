@@ -1,23 +1,63 @@
 body{
+    background-color:wheat;
     display: flex;
     justify-content: center;
-    font-family: 'Lato', sans-serif;
 }
-header{
-    font-size: 23px;
-    background-color: darkgray;
-    border: black solid 3px;
+.tab{
+    background-color: rgb(253, 246, 234);
+    border: solid black 2px;
+    margin-top: 200px;
 }
-.st{
-        height: 25px;
-        width: 25px;
-    }
-    a{
-        text-decoration: none;
-    }
-    @media screen and (max-width: 600px) {
-     body {
-         display: flex;
-        flex-direction: column;
-     }
-      }
+.container {
+  padding: 16px;
+}
+input[type=mail], input[type=name] {
+  width: 45%;
+  padding: 8px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:white;
+}
+
+input[type=subjekt]{
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+textarea[type=messeg] {
+    width: 95%;
+
+    padding: 8px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 50px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
