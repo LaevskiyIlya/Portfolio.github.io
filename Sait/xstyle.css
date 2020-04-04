@@ -143,30 +143,8 @@ img{
         border:3px outset burlywood;
         border-top-right-radius: 0%;
         border-bottom-left-radius:0% ;
-        height: 400px;
+        width: 100%;
     }
-  }
-  @media screen and (max-width: 375px) {
-    nav {
-            font-size: 14px;
-        }
-    .Fon{
-        height: 430px;
+    .tab{display:block;
     }
-  }
-  @media screen and (max-width: 360px) {
-    nav {
-            font-size: 13px;
-        }
-    .Fon{
-        height: 470px;
-    }
-  }
-  @media screen and (max-width: 320px) {
-    nav {
-            font-size: 11px;
-        }
-    .Fon{
-        height: 520px;
-    }
-  }
+}
